@@ -94,3 +94,7 @@ Typescript helps me to identify possible issues when I write the code itself. Th
 Graphql is a very powerful tool and it makes queries and requests much easier. After learning API structures with nodejs i suggest you to learn graphql afterwards.
 
 <img src="https://miro.medium.com/max/600/1*Fchv5jGxLwGGmpNjLqlMCg.png">
+
+<hr>
+
+# HAPPY READING
