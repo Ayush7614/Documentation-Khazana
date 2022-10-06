@@ -10,8 +10,27 @@
 
 # what is  Artificial Intelligence?  
 
- Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.
-
+Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.
+Artificial Intelligence includes:
+ 	• Learning (the acquisition of information and rules for utilizing the information) 
+ 	• Reasoning (applying rules to achieve approximate or definite conclusions) 
+ 	• Self-correction
+  
+ Types of AI:
+ • Based on Criteria:
+ 1. Strong AI
+ 2. Weak AI
+ 
+ • Based on Ability:
+ 1. Narrow AI
+ 2. General AI
+ 3. Super AI
+ 
+ • Based on Functionality
+ 1. Reactive
+ 2. Limited memory
+ 3. Theory of mind
+ 4. Self awareness
 
 # How does AI work?
 
