@@ -23,3 +23,26 @@
 ### https://www.w3schools.com/python/
 # Python Applications
 ![python-applications](https://user-images.githubusercontent.com/72370777/194059335-a7de13b0-c79e-46d2-9140-37b470039ea7.png)
+
+- Top 10 Python interview questions that you must know
+
+1. Explain PYTHONPATH variable?
+
+2. Why Python is single threaded?
+
+3. What are try, raise, and finally?
+
+4. What if you do not handle an error in the except block?
+
+5. What's the function of recursion?
+
+6. What is init?
+
+7. What is lambda?
+
+8. What are iterators?
+
+9. How to write comments in Python?
+
+10. What is pickling and unpickling?
+
