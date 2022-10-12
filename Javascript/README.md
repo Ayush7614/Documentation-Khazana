@@ -61,3 +61,16 @@ Do not confuse JavaScript with the Java programming language. Both "Java" and "J
  - let & const in JS, Temporal Dead Zone
  - Block Scope & Shadowing in JS
  - Closures in JS
+ - SetTimeout + Closures
+ - Famous Interview Questions ft. Closures
+ - First Class Functions ft. Anonymous Functions
+ - Callback Functions in JS ft. Event Listeners
+ - Asynchronous JavaScript & EVENT LOOP from scratch
+ - JS Engine Exposed, Google's V8 Architecture
+ - Trust issues with setTimeout()
+ - Higher-Order Functions ft. Functional Programming
+ - map, filter & reduce
+ - Callback
+ 
+ -- Special Thanks to Akshay Saini Sir
+ 
