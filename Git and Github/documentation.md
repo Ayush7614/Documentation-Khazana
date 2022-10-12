@@ -65,3 +65,26 @@ from where we have forked is called the upstream url and origin is the url which
 
 push goes to your personal remote repository ie origin
 and pull fetches from the upstream url repository from where you forked
+
+### Note 
+If a branch has been used to create a pull request then whatever changes you commit on that branch gets added to that pull request.
+In other words, One branch can have One pull request only.
+That is why it is advised to create a new branch for every feature or bug that you are working on.
+So that you can open different pull requests for different features in the same project and the code base stays more organised
+and create pull request from that specific branch of your fork to the main branch of the original project.
+
+### Note
+If you want to get back to a previous commit stage then use
+	git reset hash_of_commit
+at this point your changed files will be unstaged.
+stage them with
+	git add .
+and send them to stash area
+	git stash
+now you will have the exact same structure as the commit whose hash you have entered
+
+git reset is used to delete commits from commit history ie the log.
+
+Now if you want to push this to your online repo which is already some commits ahead as you have reset back to commit
+You will have to force push the changes and all the commits on the online will be overridden with your local commit log
+	git push origin branchname -f
