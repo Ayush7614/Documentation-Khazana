@@ -48,3 +48,16 @@ Do not confuse JavaScript with the Java programming language. Both "Java" and "J
     * Memory life cycle and garbage collection in JavaScript.
   
     * Some high-level languages, such as JavaScript, utilize a form of automatic memory management known as garbage collection (GC). The purpose of a garbage collector is to monitor memory allocation and determine when a block of allocated memory is no longer needed and reclaim it.
+    
+ * Top 20 Interview Topics of Javascript
+ 
+ - Execution Context
+ - How JS is executed & Call Stack
+ - Hoisting in JavaScript (variables & functions)
+ - Functions and Variable Environments
+ - Shortest JS Program, window & this keyword
+ - undefined vs not defined in JS
+ - The Scope Chain, Scope & Lexical Environment
+ - let & const in JS, Temporal Dead Zone
+ - Block Scope & Shadowing in JS
+ - Closures in JS
