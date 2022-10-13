@@ -1,19 +1,29 @@
-# Documentation-Khazana
+# Documentation-Khazana📃
 This project is specifically for the documentation of technical and non-technical topics in technology.
 
 If you're interested in technical writing or blog writing, you've come to the right place. So, what are you waiting for? Start contributing and helping to create an open source environment. 
 
-Some of the Topics mention are
+### Some of the Topics mention are :
 
 - UI/UX
 - Frontend Development
 - Backend Development
 - Full Stack Development
+- Android Development
+- Artificial intelligence
+- Flutter Development
+- MERN Stack Development
 - Cloud Computing
 - Devops
 - Reddis
 - NodeJS
 - MongoDB
+- Machine Learning
+- Javascript
+- Python
+- React Native
+- Angular
+- Java
 
 You can also suggest some topics from your side. Your opinions are always welcome.
 
@@ -36,4 +46,4 @@ Some of the references for beginners are
   <a href="https://Ayush7614.hashnode.dev/"><img src="https://img.shields.io/badge/hashnode-%27D1203.svg?&style=for-the-badge&logo=hashnode&logoColor=blue" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<h1 align=center>Happy Writing 👨‍ </h1>
+<h1 align=center>Happy Writing ✍👨‍ </h1>
