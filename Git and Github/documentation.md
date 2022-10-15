@@ -4,87 +4,71 @@ Git is a free and open source distributed version control system designed to han
 ## GitHub
 While git is a service system, GitHub is one of the platforms which provide this service online. GitHub allows you to host your repositories online.
 ## Git Commands
-- ```git init``` to initial git repository in the present directory
-- ```git status``` to tell you about the changes which are yet not added or are untracked by git as of now or they are in the unstagged area
-	It also shows files in the staging are
-	Red color - files not in the staging area
-	Green color - files in the staging area
-	It shows no file if all the files and changes are already committed
-- ```git add``` -> to add the files or changes to the staging area
-	add works on the changed files only
-	git add . -> to add all
-	git add filename -> to add particular file
+- ```git init``` -> To initial git repository in the present directory.
+- ```git status``` -> Tells you about the untracked changes and staged changes in the repository.
+					<br> &emsp; Red text is for untracked files whereas Green text is for staged files.
+- ```git add filename``` -> To add the file with changes to the staging area.
+					<br> &emsp; git add . -> To add all the unstaged files to staging area.
 
-- ```git commit -m "Message" ``` -> to commit. to take a snapshot of the current state
+- ```git commit -m "Message" ``` -> To commit the stagged changes. In other words to make a checkpoint/save-point of the repository state.
 
-- ```git restore --staged filename ``` -> to remove the file from the staging area without committing it
+- ```git restore --staged filename ``` -> To remove the file from the staging area without committing it.
 
-- ```git log``` -> shows the history of all the commits that were made
+- ```git log``` -> Shows the history and hash of all the commits that were made.
 
-- ```git reset hash_of_the_commit``` -> removes all the log of commit above the commit whose hash is mentioned
-	to get the hash of commits use git log
-	after git reset the files that were modified in the removed commits are now in the unstagged area or basically are currently untracked
+- ```git reset hash_of_the_commit``` -> Removes all the log of commit above the commit whose hash is mentioned.
+					<br> &emsp; After git reset the files that were modified in the removed commits are now in the unstagged area or basically are currently untracked.
 
-- ```git reset --hard hash_of_the_commit``` -> removes all the file changes and leaves nothing untrackked
+- ```git reset --hard hash_of_the_commit``` -> Removes all the file changes and leaves nothing untracked or unstaged.
 
-- ```git restore filename``` -> can bring back the files which were removed in git reset
-			the files lost in git reset can also be kept in the stash area
-		stash is like a backstage
+- ```git restore filename``` -> brings back the files which were removed in git reset.
+					<br> &emsp; the files lost in git reset can also be kept in the stash area.
+					<br> &emsp; Stash is similar to a backstage area.
 
-so in order to stash some file, you need to bring the file first to the staging area by git add filename
-and then
-- ```git stash```
-This removes the file from your directory and stashes it without commiting
-in other words moves the file from your directory to a temporary waiting area (or backstage)
+- ```git stash``` -> This removes the file from your directory and stashes it without commiting.
+					<br> &emsp; In other words moves the file from your directory to a temporary waiting area / stash area(or backstage).
 
-- ```git stash pop``` -> brings the changes from the stash area to the unstaged area, ready to be staged.
-	It brings the files from stash to your directory
+#### &emsp; &emsp; Note: In order to stash some file, you need to bring the file first to the staging area by git add filename and then stash them.
 
-- ```git stash clear``` -> removes the files from stash area and deletes them forever
+- ```git stash pop``` -> Brings the changed files from the stash area to the unstaged area.
+					<br> &emsp; It brings the files from stash to your directory.
 
-- ```git remote add origin url``` -> to connnect the remote repository url to the local repository and the name used is origin
-	here origin is the name of the url
-	by convention all the repositories in your personal account have a url name as origin
+- ```git stash clear``` -> Removes the files from stash area and deletes them forever.
 
-- ```git remote -v ```-> shows all the urls attached to that folder or local repository
+- ```git remote add origin url``` -> To connnect the remote repository (say on your GitHub profile) url to the local repository.
+					<br> &emsp; Here origin is set as the name of that url.
+					<br> &emsp; By convention all the repositories in your personal account have a url name as origin.
 
-- ```git push origin master``` -> to push the changes to the origin url's master branch
-	origin is the name of the url of our github repository
-	master is the branch name of the repository
-	in modern versions the master branch is also called main branch, so check that out
+- ```git remote -v ```-> Shows all the urls attached to that local repository.
 
-- ```git branch newbranchname``` -> creates a new branch
+- ```git push origin master``` -> To push the changes to the origin url's master branch.
+					<br> &emsp; Origin is the name of the url of our github repository.
+					<br> &emsp; Master is the branch name of the repository.
+					<br> &emsp; In modern versions the master branch is also called main branch, so do consider that as well.
 
-- ```git checkout branchname``` -> points the head to the branchname which is specified
-	head is a pointer that points to the branch on which the commits will be added
+- ```git branch newbranchname``` -> Creates a new branch.
 
-- ```git merge branchname``` -> to merge the branchname branch into the main branch
+- ```git checkout branchname``` -> Points the head to the branchname which is specified.
+					<br> &emsp; Head is a pointer that points to the branch on which the commits will be added
 
-- ```git remote add upstream url``` -> adds the url as the upstream url
-from where we have forked is called the upstream url and origin is the url which is in your personal github account
+- ```git merge branchname``` -> To merge the specified branch into the main branch.
 
-push goes to your personal remote repository ie origin
-and pull fetches from the upstream url repository from where you forked
+- ```git remote add upstream url``` -> Adds the url as the upstream url.
+					<br> &emsp; The source from which we have forked is called the upstream url and origin is the url of the repository which is in your personal github account.
+- ```git pull``` -> To pull/fetch the changes from the original online repository (or the source of fork) to the local repository.
 
-### Note 
+- ```git pull upstream main``` -> pulls data and commits from the upstream to your local repositories main branch
+#### &emsp; &emsp; Note: In this case only the local is updated, your online forked repository is still not updated, to update it use ```git push origin main```.
+
+- ```git rebase -i hash_of_commit_whose_upper_commits_need_to_be_squashed``` -> -i is for interactive mode.
+					<br> &emsp; This will open an interactive screeen where you can change pick to s, for squashing that commit into the commit above it which is pick.
+
+### Extras 
 If a branch has been used to create a pull request then whatever changes you commit on that branch gets added to that pull request.
-In other words, One branch can have One pull request only.
+In other words, one branch can have one pull request only.
 That is why it is advised to create a new branch for every feature or bug that you are working on.
-So that you can open different pull requests for different features in the same project and the code base stays more organised
-and create pull request from that specific branch of your fork to the main branch of the original project.
+So that you can open different pull requests for different features in the same project and the code base stays more organized and create pull request from that specific branch of your fork to the main branch of the original project.
 
-### Note
-If you want to get back to a previous commit stage then use
-	git reset hash_of_commit
-at this point your changed files will be unstaged.
-stage them with
-	git add .
-and send them to stash area
-	git stash
-now you will have the exact same structure as the commit whose hash you have entered
 
-git reset is used to delete commits from commit history ie the log.
 
-Now if you want to push this to your online repo which is already some commits ahead as you have reset back to commit
-You will have to force push the changes and all the commits on the online will be overridden with your local commit log
-	git push origin branchname -f
+
