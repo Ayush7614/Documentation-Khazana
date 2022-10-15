@@ -188,3 +188,18 @@ React is one of the most well-liked JavaScript frameworks for developing single-
 Just keep in mind that learning advanced React concepts doesn't stop here. You can continue to learn about accessibility, test frameworks, and many more advanced concepts as needed.
 
 I hope you found the roadmap helpful. Please plan to get enough practice as you start walking through the path. 
+
+- Here are some React Interview Questions on basic concepts.
+
+1. What are the features of React?
+
+2. What is JSX?
+
+3. Can web browsers read JSX directly? 
+
+4. What is the virtual DOM?
+
+5. Why use React instead of other frameworks, like Angular?
+
+6. What is the difference between the ES6 and ES5 standards?
+7. 
