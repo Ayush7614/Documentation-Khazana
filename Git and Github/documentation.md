@@ -4,6 +4,7 @@ Git is a free and open source distributed version control system designed to han
 ## GitHub
 While git is a service system, GitHub is one of the platforms which provide this service online. GitHub allows you to host your repositories online.
 ## Git Commands
+- ```git clone``` ->  Creates a clone/copy of an existing repository into a new directory.
 - ```git init``` -> To initial git repository in the present directory.
 - ```git status``` -> Tells you about the untracked changes and staged changes in the repository.
 					<br> &emsp; Red text is for untracked files whereas Green text is for staged files.
