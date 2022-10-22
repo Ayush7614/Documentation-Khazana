@@ -1,9 +1,3 @@
-## What is cloud computing ?
-## Jobs profile in Cloud computing ? 
-## How to start with cloud computing ?
-
-
-
 # What is cloud computing ?
 
 Cloud computing is the management of computing services such as storage, servers, data, networking, etc. over the internet instead of any physical storage for better and effective functioning. 
@@ -21,14 +15,13 @@ Solutions Architect
 
 1. Get Aware With Cloud Technology & Platforms
 
-
 2. Understand the Cloud Computing Fundamentals
 
-Deployment Models
-Auto-scaling
-Clustering
-Data Storage Infrastructure
-DevOps
+- Deployment Models
+- Auto-scaling
+- Clustering
+- Data Storage Infrastructure
+- DevOps
 
 3. Work On Other Required Skills
 
