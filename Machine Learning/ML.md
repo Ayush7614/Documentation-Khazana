@@ -29,6 +29,8 @@
 
 [Machine Learning](https://www.ibm.com/cloud/learn/machine-learning) is a branch of artificial intelligence (AI) focused on building apps using algorithms that learn from data models and improve their accuracy over time without needing to be programmed.
 
+[Understanding Machine Learning : From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html)
+
 <img src="https://user-images.githubusercontent.com/45159366/134075233-925d48fd-47f2-44d0-946b-0453272bde35.jpeg">
 
 ### Developer Resources
