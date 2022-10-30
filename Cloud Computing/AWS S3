@@ -1,0 +1,30 @@
+# What is Amazon Simple Storage Services (Amazon S3)? 
+
+Amazon Web Services (AWS) is defined as a service that provides object storage via a web interface to make web-scale computing more accessible to developers. This service enables companies of all sizes and industries to store vast amounts of data for a variety of uses, including websites, mobile apps, disaster recovery, and big data analytics. It provides 99.999999999 percent durability and 99.99 percent availability of objects. It can also store computer files up to 5 terabytes in size.
+
+# AWS S3 Benefits
+Some of the benefits of AWS S3 are:
+Durability: S3 provides 99.999999999 percent durability.
+Low Cost: S3 lets you store data in a range of “storage classes.” These classes are based on the frequency and immediacy you require in accessing files.
+Scalability: S3 charges you only for what resources you actually use, and there are no hidden fees or overage charges. You can scale your storage resources to easily meet your organization’s ever-changing demands.
+Availability: S3 offers 99.99 percent availability of objects
+Security: S3 offers an impressive range of access management tools and encryption features that provide top-notch security.
+Flexibility: S3 is ideal for a wide range of uses like data storage, data backup, software delivery, data archiving, disaster recovery, website hosting, mobile applications, IoT devices, and much more.
+Simple data transfer: You don’t have to be an IT genius to execute data transfers on S3. The service revolves around simplicity and ease of use.
+
+These are compelling reasons to sign up for S3. Now, let’s move on and have a look at some of the major components of the AWS S3 storage service.
+
+# How does Amazon S3 Work?
+First off, a user creates a bucket. When this bucket is created, the user will specify the region in which the bucket is deployed. Later, when files are uploaded to the bucket, the user will determine the type of S3 storage class to be used for those specific objects. After this, users can define features to the bucket, such as bucket policy, lifecycle policies, versioning control, etc.
+
+Now, let’s talk about the different storage classes offered by Amazon S3.
+
+Amazon S3 Storage Classes: This storage maintains the originality of data by inspecting it. Types of storage classes are as follows:
+
+Amazon S3 Standard
+Amazon S3 Intelligent-Tiering
+Amazon S3 Standard-Infrequent Access
+Amazon S3 One Zone-Infrequent Access
+Amazon S3 Glacier Instant Retrieval
+Amazon S3 Glacier Flexible Retrieval
+Amazon S3 Glacier Deep Archive
