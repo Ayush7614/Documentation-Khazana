@@ -1,9 +1,13 @@
 # Documentation-Khazana📃
 This project is specifically for the documentation of technical and non-technical topics in technology.
 
-If you're interested in technical writing or blog writing, you've come to the right place. So, what are you waiting for? Start contributing and helping to create an open source environment. 
+If you're interested in technical writing or blog writing, you've come to the right place. So, what are you waiting for? Start contributing and help creating an open source community with enriched resources all at one point.
 
-### Some of the Topics mention are :
+# What will you find here?
+
+You will find links to the learning resources of various technological stacks.
+
+### Some of the Topics listed in the repository are :
 
 - UI/UX
 - Frontend Development
@@ -47,3 +51,4 @@ Some of the references for beginners are
 </p>
 
 <h1 align=center>Happy Writing ✍👨‍ </h1>
+<h1 align=center>All the best for your Open-Source Journey👍🏻</h1>
