@@ -1,0 +1,35 @@
+# What is a Virtual Machine ?
+A virtual machine, is no different than any other physical computer like a laptop, smart phone or server. It has a CPU, memory, disks to store your files and can connect to the internet if needed.
+
+A hypervisor is the software that integrates the physical hardware and the VM's virtual "hardware".
+
+## The benefits of VMs are :
+
+Cost Savings.
+Agility and Speed
+Lowered downtime
+Scalability
+Security Benefits
+
+We can create virtual machine of windows and different versions of linux as well.
+
+# Uses of VM
+## Software Development
+By creating and managing a virtual environment, developers are able to recreate precise conditions on multiple workstations. This way, a piece of software can be easily tested and complied in reproducible circumstances.
+
+In the most basic sense, this kind of compliance can help developers avoid a scenario in which software runs great on one workstation but not on a different workstation.
+
+Basically, with a VM you can match your development area to your production environment exactly.
+
+With VMs, any host OS can run any guest OS.
+
+## Docker and Ansible
+Programs like Docker and Ansible let you create reproducible container environments that be open/closed and shared across your network or with other users on separate workstations.
+
+Ansible provides a platform for creating and maintaining server or VM specifications. Docker handles various software containers that can be deployed in various environments. Used together, you can automate the provisioning of VMs and software containers.
+
+In an example scenario, Ansible uses an “inventory” to track what kind of server stack you want to replicate. For example, if you want an inventory that consists of everything you’ll need for a basic web server (Linux, MySQL, PHP and Apache, and perhaps Nginx) you can use the Ansible inventory to reflect these packages. Ansible uses the YAML programming language to build the inventory.
+
+All you need to do is this instance is add these pieces of software to your inventory and Ansible can spin them up in a virtual environment. Likewise, the same inventory could be used within one physical server to spin up multiple virtual machines.
+
+On a smaller scale, you can use Docker locally to quickly spin up virtual software containers. For example, if you wanted to test something in a fresh Linux installation you can use Docker to create the necessary dependencies. This is, in essence, a virtual instance because it’s not an independent computer system, but rather it requires the host computer in order to run.
